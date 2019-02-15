@@ -1,0 +1,22 @@
+.margin-top-bot-70{
+    margin:70px 0px;
+}
+.margin-left-50{
+    margin-left:50px;
+}
+body .bg-body{
+    background-color:rgb(247, 247, 247);
+}
+body::after {
+    content: "";
+    background-image:url(../images/back.jpg);
+    background-repeat:no-repeat;
+    background-size: 1920px 1080px;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
